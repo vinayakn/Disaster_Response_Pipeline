@@ -75,3 +75,10 @@ Note: Takes long time to classfy the model(almost 6 to 7 hours).
     `python run.py`
 
 3. Go to http://127.0.0.1:3002/
+
+# Once UI up & running it looks as below:
+####  Entet tweets to Classify int categories:
+![alt text](https://github.com/vinayakn/Disaster_Response_Pipeline/blob/master/Search%20Categories.png)
+
+# Visaulzation:
+![alt text](https://github.com/vinayakn/Disaster_Response_Pipeline/blob/master/graphs.png)
