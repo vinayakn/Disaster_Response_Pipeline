@@ -5,10 +5,10 @@
 
 |S.NO| Description | README |
 |--| ------ | ------ |
-|1|Summary|[GOTO]()|
-|2|Installation | [GOTO]()|
-|3|Instructions | [GOTO]() |
-|4|The file structure | [GOTO]() |
+|1|Summary|[GOTO](https://github.com/vinayakn/Disaster_Response_Pipeline#summary)|
+|2|Installation | [GOTO](https://github.com/vinayakn/Disaster_Response_Pipeline#installation)|
+|3|The file structure | [GOTO](https://github.com/vinayakn/Disaster_Response_Pipeline#the-file-structure) |
+|4|Instructions | [GOTO](https://github.com/vinayakn/Disaster_Response_Pipeline#instructions) |
 
 # Summary
 
@@ -20,36 +20,48 @@ The web app also displays useful visualizations about the training data availabl
 Data is Imbalanced due to which classifer Accuracy is high whoever we notice f1-score is not that great!!.
 Note: Takes long time to classfy the model(almost 6 to 7 hours).
 
-##### **Steps Followod:**
+##### **Steps Followed:**
 * An ETL pipeline was created, extracting data from csv files, cleaning and loaded into an SQL database.
 * A machine learning pipeline was created to extract the NLP features and then optimize the algorithm using grid search.
 * A web app was then developed that extracts the initial data from the database and provides some interactive visual summaries.
 * Users are also able to search their own message to be classified one of the cetegoires of the algorithm.
 
 # Installation
-#### **Libraries:** sys,pandas,numpy,re,sqlite3, sqlalchemy,sklearn, nltk, plotly, flask,json
-#### **HTML:** Bootstrap
+#### **Libraries:**
+		*sys,
+		*pandas,
+		*numpy,
+		*re,
+		*sqlite3,
+		*sqlalchemy,
+		*sklearn,
+		*nltk,
+		*plotly,
+		*flask,
+		*json
+#### **HTML:**
+		*Bootstrap
 
 
 # The file structure: 
 
--**app**
-|- template
-|	|- master.html 	# main page of web app
-|	|- go.html 	  	# classification result page of web app
-|- run.py 			# Flask file that runs app
-
--**data**
-|- disaster_categories.csv # data to process
-|- disaster_messages.csv   # data to process
-|- process_data.py         # code to process
-|- disaster_messages.db    # cleaned data
-
--**models**
-|- train_classifier.py  #Model builder
-|- model.pkl 			#saved model
-
--**README.md**
+-**`app`** <br/>
+|- * `template` <br/>
+|       |-* '`master.html` 	# main page of web app <br/>
+|       |-* `go.html` 	  	# classification result page of web app <br/>
+|- * `run.py` 			# Flask file that runs app <br/>
+<br/>
+-**`data`**<br/>
+|- * `disaster_categories.csv` # data to process <br/>
+|- * `disaster_messages.csv`   # data to process <br/>
+|- * `process_data.py`         # code to process <br/>
+|- * `disaster_messages.db`    # cleaned data <br/>
+<br/>
+-**`models`**<br/>
+|- * `train_classifier.py`  #Model builder <br/>
+|- * `model.pkl` 			#saved model <br/>
+<br/>
+-* **`README.md`**<br/>
 
 # Instructions:
 1. **Run the following commands in the project's root directory to set up your database and model.**
