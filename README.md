@@ -18,7 +18,7 @@ This model is then used as back-end for a web app where a user can search any me
 The web app also displays useful visualizations about the training data available.
 
 Data is Imbalanced due to which classifer Accuracy is high whoever we notice f1-score is not that great!!.
-Note: Takes long time to classfy the model(almost 6 to 7 hours).
+Note: Takes long time to classfy the model.
 
 ##### **Steps Followed:**
 * An ETL pipeline was created, extracting data from csv files, cleaning and loaded into an SQL database.
@@ -80,5 +80,5 @@ Note: Takes long time to classfy the model(almost 6 to 7 hours).
 ####  Entet tweets to Classify int categories:
 ![alt text](https://github.com/vinayakn/Disaster_Response_Pipeline/blob/master/Search%20Categories.png)
 
-# Visaulzation:
+# Visualization:
 ![alt text](https://github.com/vinayakn/Disaster_Response_Pipeline/blob/master/graphs.png)
